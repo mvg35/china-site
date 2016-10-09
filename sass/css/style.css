@@ -1,0 +1,91 @@
+html, body { font-family: 'Ubuntu', sans-serif !important; width: 100%; overflow-x: hidden; align: center; background: black; }
+html h4, body h4 { color: white; }
+html h3, body h3 { margin: none; }
+html p, body p { color: black; }
+
+div { background: black; }
+
+.wb { background: white !important; }
+
+.whiteBGsetup { margin-top: 2em; margin-bottom: 2em; border: solid; border-radius: 5px; border-width: 3px; border-color: rgba(50, 50, 50, 0.2); background: white; }
+
+#header { position: relative; top: 40px; }
+#header .navbar, #header .navbar-default { border-radius: 5px; position: absolute; background: white !important; z-index: 100; width: 100%; }
+#header .navbar .navbar-header, #header .navbar-default .navbar-header { padding-top: 2em; }
+#header .navbar .navbar-header .navbar-toggle, #header .navbar-default .navbar-header .navbar-toggle { background-image: none; border-width: 1px; border-style: solid; border-color: gray; border-radius: 4px; position: relative; right: 20px; top: -10px; }
+#header .navbar .navbar-header .navbar-toggle .sr-only, #header .navbar-default .navbar-header .navbar-toggle .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+#header .navbar .navbar-header .navbar-brand, #header .navbar-default .navbar-header .navbar-brand { position: relative; top: -8px; background: url("/media/brand-logo.png") top left no-repeat; background-size: 100%; color: transparent; margin-left: 2em; z-index: 100; }
+#header .navbar .navbar-collapse, #header .navbar-default .navbar-collapse { position: relative; padding-top: 2em; }
+#header .navbar .navbar-collapse ul, #header .navbar-default .navbar-collapse ul { position: relative; list-style-type: none; float: right; }
+#header .navbar .navbar-collapse ul li, #header .navbar-default .navbar-collapse ul li { padding-top: .7em; padding-bottom: .7em; border-right: solid; border-width: 1.5px; padding-right: 1em; padding-left: 1em; }
+#header .navbar .navbar-collapse ul li a, #header .navbar-default .navbar-collapse ul li a { color: black; }
+#header .navbar .navbar-collapse ul li:hover a, #header .navbar-default .navbar-collapse ul li:hover a { text-decoration: none; color: gray; }
+#header .navbar .navbar-collapse ul li:hover img, #header .navbar-default .navbar-collapse ul li:hover img { opacity: .5; }
+
+#content #Home .main-image { min-height: 700px; background: url("/media/space.jpg") bottom right no-repeat; background-size: cover; box-shadow: inset 200px 0px 100px 70px rgba(0, 0, 0, 0.5); }
+#content #Home .main-image h1 { color: white; text-align: center; position: relative; top: 350px; }
+#content #About .about { background-color: white; border-radius: 5px; border: solid; border-width: 3px; border-color: rgba(50, 50, 50, 0.2); margin-bottom: 2em; margin-top: 2em; }
+#content #About .about .profile-pic { border-radius: 5px; }
+#content #About .about .profile-pic img { max-width: 99%; padding: 1%; border-radius: 5px; /* A percentage that, when doubled and added to the above, makes 100%. */ background: white /* Color of the faux border. */ }
+#content #About .about .about-me { text-align: center; }
+#content #Work .example { background: url("/media/phidev-footer.svg") center top no-repeat; background-size: 200px; background-position-y: 9px; min-height: 260px; background-color: white; border-radius: 5px; border: solid; border-width: 3px; border-color: rgba(50, 50, 50, 0.2); margin-bottom: 2em; position: relative; }
+#content #Work .example.google { background: url("/media/google-search.png") center top no-repeat; background-size: 60px; background-position-y: 5px; background-color: white; }
+#content #Work .example.research { background: url("/media/ap-lab.jpg") center top no-repeat; background-size: 80px; background-position-y: 15px; background-color: white; }
+#content #Work .example.free-lance { background: url("/media/logo-circular.png") center top no-repeat; background-size: 55px; background-position-y: 8px; background-color: white; }
+#content #Work .example .description { position: relative; top: 65px; }
+#content #Work .example .description p { padding-top: 2px; color: black; text-align: center; }
+#content #Work .example .description ul { text-align: center; list-style-type: none; padding: 0; }
+#content #Blog .fixed-height-blog { margin-top: 2em; margin-bottom: 2em; height: 650px; border: solid; border-radius: 5px; border-width: 3px; border-color: rgba(50, 50, 50, 0.2); overflow-y: scroll; }
+#content #Blog .fixed-height-blog a .blog-example { background-size: 200px; height: 180px; border: solid; border-width: 1px; background-color: black; border-radius: 5px; }
+#content #Blog .fixed-height-blog a .blog-example .picture { position: relative; height: 174px; top: 2px; }
+#content #Blog .fixed-height-blog a .blog-example .picture.emotient { background: url("/media/blog/computer-vision.jpg") center no-repeat; background-size: cover; }
+#content #Blog .fixed-height-blog a .blog-example .picture.subliminal { background: url("/media/blog/subliminal-book.jpg") center no-repeat; background-size: cover; }
+#content #Blog .fixed-height-blog a .blog-example .picture.xolos { background: url("/media/blog/xolos.jpg") center no-repeat; background-size: cover; }
+#content #Blog .fixed-height-blog a .blog-example .picture.aviation { background: url("/media/blog/tlsp.jpg") center no-repeat; background-size: cover; }
+#content #Blog .fixed-height-blog a .blog-example .picture.slim { background: url("/media/blog/slim.png") center no-repeat; background-size: cover; }
+#content #Blog .fixed-height-blog a .blog-example .picture.latino-usa { background: url("/media/blog/latino-usa.jpg") center no-repeat; background-size: cover; }
+#content #Blog .fixed-height-blog a .blog-example .info { background: transparent; }
+#content #Blog .fixed-height-blog a .blog-example .info h5 { text-align: center; position: relative; top: -150px; color: white; text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; }
+#content #Blog .fixed-height-blog a .blog-example .info h5:hover { text-decoration: none; }
+#content #Blog .fixed-height-blog a .blog-example .info h5:target { text-decoration: none; }
+#content #Blog .fixed-height-blog a:hover, #content #Blog .fixed-height-blog a:target { text-decoration: none; }
+#content #Resume .resume h4 { text-align: center; }
+
+.title { text-align: center; background-color: black; color: white; }
+
+.normal-padding { padding-top: 1px; padding-bottom: 1px; border-radius: 5px; }
+.normal-padding h3 { position: relative; top: -5px; }
+
+.project-images { padding-top: 1em; padding-bottom: 1em; }
+
+#content-google-search-operator #Home .main-image { position: relative; top: 40px; min-height: 700px; background: url("/media/views/gso/coding.jpg") bottom right no-repeat; background-size: cover; }
+#content-google-search-operator #Home .main-image h1 { color: white; text-align: center; position: relative; top: 350px; }
+
+#footer { position: relative; border-radius: 5px; }
+#footer .row .contact-info a h5 { text-align: center; }
+#footer .row .group_social ul { padding-top: 2em; padding-bottom: 2em; text-align: center; list-style-type: none; padding-left: 1em; }
+#footer .row .group_social ul .social-image { padding-left: 1em; position: relative; opacity: 0.5; -webkit-opacity: 0.5; -moz-opacity: 0.5; -webkit-transition: 0.2s ease; transition: 0.2s ease; cursor: pointer; display: inline; }
+#footer .row .group_social ul .social-image img { height: 40px; }
+#footer .row .group_social ul .social-image:hover { opacity: 1; }
+#footer .row .group_social ul .social-image:hover img { text-decoration: none; -webkit-transform: scale(1.3, 1.3); -ms-transform: scale(1.3, 1.3); transform: scale(1.3, 1.3); opacity: 1; z-index: 100; }
+#footer .row .top-button a h5 { text-align: center; }
+#footer .row .translate a { display: center; align: center; }
+#footer .row .translate a img { padding-top: 1em; }
+
+@media screen and (min-width: 768px) { /*--iPad--*/
+  #header .navbar .navbar-header .navbar-brand, #header .navbar-default .navbar-header .navbar-brand { top: 14px; left: -10px; }
+  #header .navbar .navbar-collapse ul, #header .navbar-default .navbar-collapse ul { top: -30px; }
+  #header .navbar .navbar-collapse ul li, #header .navbar-default .navbar-collapse ul li { display: inline; }
+  #content #About .about .about-me { text-align: left; }
+  #content #Work .example { min-height: 240px; }
+  #content #Blog .fixed-height-blog a .blog-example .info h5 { text-align: left; top: 10; }
+  #content #Blog .fixed-height-blog a .blog-example:hover .picture { opacity: .5; }
+  #content #Blog .fixed-height-blog a .blog-example:hover h5 { color: gray; }
+  #footer .row .group_social ul { padding: 0; }
+  #footer .row h5 { padding-top: 5px; } }
+@media screen and (min-width: 800px) { /*--Monitor--*/
+  #header .navbar .navbar-header .navbar-brand, #header .navbar-default .navbar-header .navbar-brand { left: 0; top: -9px; }
+  #header .navbar .navbar-collapse ul, #header .navbar-default .navbar-collapse ul { top: 0; }
+  #header .navbar .navbar-collapse ul li, #header .navbar-default .navbar-collapse ul li { display: inline; } }
+
+/*# sourceMappingURL=style.css.map */
